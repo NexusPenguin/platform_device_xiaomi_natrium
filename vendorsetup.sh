@@ -1,2 +1,0 @@
-add_lunch_combo aosp_natrium-userdebug
-add_lunch_combo aosp_natrium-eng

@@ -3,6 +3,7 @@ $(call inherit-product, device/xiaomi/natrium/full_natrium.mk)
 # Inherit some common AOSP stuff.
 $(call inherit-product, vendor/aosp/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
+EXTENDED_BUILD_TYPE=OFFICIAL
 
 PRODUCT_NAME := aosp_natrium
 PRODUCT_DEVICE := natrium
