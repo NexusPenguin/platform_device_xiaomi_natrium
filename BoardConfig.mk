@@ -28,7 +28,7 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := natrium_defconfig
+TARGET_KERNEL_CONFIG := aoscp_natrium_defconfig
 
 # NFC
 NXP_CHIP_TYPE := 3
