@@ -1,9 +1,10 @@
 $(call inherit-product, device/xiaomi/natrium/full_natrium.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common AEX stuff.
+$(call inherit-product, vendor/aosp/common.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := lineage_natrium
+PRODUCT_NAME := aosp_natrium
 PRODUCT_DEVICE := natrium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 5s Plus
