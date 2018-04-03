@@ -1,7 +1,7 @@
 $(call inherit-product, device/xiaomi/natrium/full_natrium.mk)
 
-# Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common Resurrection stuff.
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 EXTENDED_BUILD_TYPE=OFFICIAL
 
